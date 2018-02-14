@@ -1,9 +1,25 @@
 <Configurations>
+  <!-- Parameters for FTP server X -->
   <FTPConfiguration>
-    <Table lastMod="" file=""/>
-    <host></host>
-    <username></username>
-    <password></password>
+  	<!-- A table is a file in the remote FTP server -->
+    <Table lastMod="" file="path/to/remote/file"/>
+    <Table lastMod="" file="path/to/remote/file2"/>
+    <Table lastMod="" file="path/to/remote/file3"/>
+    <host>remote.host.X</host>
+    <username>remote.server.username</username>
+    <password>remote.server.password</password>
+    <port>21</port>
+  </FTPConfiguration>
+
+  <!-- Parameters for FTP server Y -->
+  <FTPConfiguration>
+  	<!-- A table is a file in the remote FTP server -->
+    <Table lastMod="" file="path/to/remote/file"/>
+    <Table lastMod="" file="path/to/remote/file2"/>
+    <Table lastMod="" file="path/to/remote/file3"/>
+    <host>remote.host.Y</host>
+    <username>remote.server.username</username>
+    <password>remote.server.password</password>
     <port>21</port>
   </FTPConfiguration>
 </Configurations>
