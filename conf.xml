@@ -1,0 +1,9 @@
+<Configurations>
+  <FTPConfiguration>
+    <Table lastMod="" file=""/>
+    <host></host>
+    <username></username>
+    <password></password>
+    <port>21</port>
+  </FTPConfiguration>
+</Configurations>
